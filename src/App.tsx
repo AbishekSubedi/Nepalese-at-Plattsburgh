@@ -1,7 +1,7 @@
 import Message from "./message";
 
 function App() {
-  return <div>Here comes the message <Message /></div>;
+  return <div><Message /></div>;
 }
 
 export default App;
