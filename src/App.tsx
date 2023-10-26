@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import logo from './images/logo.png';
+import logo from './images/naplogo.png';
 
 
 function App() {
@@ -17,8 +17,9 @@ function App() {
         <Navbar.Brand href="#home">
         <img
             src={logo}
-            width="30"
-            height="30"
+            width="35"
+            height="35"
+
             className="d-inline-block align-top"
             alt="Your Logo"
           />
@@ -29,8 +30,8 @@ function App() {
             <Nav.Link href="#content">Content</Nav.Link>
             <Nav.Link href="#photos">Photos</Nav.Link>
             <NavDropdown title="Events" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="upcomingevents">Upcoming Events</NavDropdown.Item>
-              <NavDropdown.Item href="pastevents">
+              <NavDropdown.Item href="#upcomingevents">Upcoming Events</NavDropdown.Item>
+              <NavDropdown.Item href="#pastevents">
                 Past Events
               </NavDropdown.Item>
             </NavDropdown>
