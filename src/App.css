@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+.Nabbar {
+  margin-bottom: 3rem; /* Apply margin to create space (adjust the value as needed) */
+}
+.red-outline {
+  border: 1px solid red;
+  color: red;
+}
