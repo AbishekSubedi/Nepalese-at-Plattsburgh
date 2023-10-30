@@ -1,7 +1,14 @@
+import Container from 'react-bootstrap/Container';
 function Section(){
  return(
     <div>
-    <h1>Abhisek, Please get to work</h1>
+      <section className='bg-dark'>
+         <Container >
+            <h1 className ="text-light">Welcome to Nepalese At Plattsburgh</h1>
+
+
+         </Container>
+       </section>
     </div>
     
 
